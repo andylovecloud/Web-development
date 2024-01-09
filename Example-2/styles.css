@@ -1,14 +1,54 @@
 body
 {
-    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(55, 55, 55);
+    background-color: rgb(240, 240, 240);
 }
-nav
+.logo
 {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+/* Margin: distance bt 2 elements. Padding: distance inside an element */
+nav li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul
+{
+    padding-left: 0;
+}
+
+/* Set attributes for all the links */
+nav a, nav a:visited, nav a:active 
+{
+    color: black;
+    text-decoration: none; /* remove the underline of the link */
+    text-transform: uppercase; /* convert to Uppercase  */
+}
+
+/* when mouse hover the underline of the link will show and change color */
+nav a:hover
+{
+    color: orange; 
+    text-decoration: underline;
+}
+img
+{
+    width: 500px;
+    height: auto;   
+}
+
+footer
+{
+    background-color: black;
+    color: aliceblue;
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
 }
