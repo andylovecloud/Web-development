@@ -1,0 +1,4 @@
+Screen widths
+Desktop 1920
+Mobile
+Tablet 720
