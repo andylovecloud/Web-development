@@ -1,4 +1,34 @@
 body
 {
-    background-color: rgb(231, 231, 231);
+
+}
+article
+{
+    width: 740px;
+    margin: 16px auto;
+}
+/* Usually the definition should from Biggest to Smallest */
+
+/* If the browser window is smaller than 900px - Tablets */
+@media (max-width: 900px)
+{
+    body
+    {
+        background-color: yellow;
+    }
+
+}
+
+/* If the browser window is smaller than 600px - Phone */
+@media (max-width: 600px)
+{
+    body
+    {
+        background-color: white;   
+    }
+    article
+    {
+        width: 90%;
+    }
+
 }
