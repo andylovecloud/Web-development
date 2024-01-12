@@ -1,8 +1,9 @@
 footer
 {
-    background-color: lightgrey;
+    background-color: lightgrey; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 
@@ -18,4 +19,17 @@ footer
     background-color: blue;
     /* flex: 1; */
     width: 200px;
+}
+
+@media (max-width: 500px)
+{
+    footer
+    {
+        flex-direction: column;
+    }
+    .left, .right
+    {
+        width: 100%;
+    }
+
 }
