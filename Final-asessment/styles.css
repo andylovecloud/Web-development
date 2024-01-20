@@ -1,10 +1,7 @@
-#ch {
-    display: none;
-  }
-#ch:checked ~ .hide-content {
-display: block;
+body
+{
+    min-height: min-content;
 }
-
 label {
 display: inline-block;
 cursor: pointer;
@@ -42,3 +39,12 @@ background-size: 100% 100%;
 {
     color: red;
 }
+#footer {
+    background-color: #333;
+    /* color: white; */
+    text-align: center;
+    width: 100%;
+    /* padding: 1em; */
+    position:absolute;
+    bottom: 0;
+  }
